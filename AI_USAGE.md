@@ -3,7 +3,7 @@
 ## Herramienta utilizada
 Claude (Anthropic) como asistente de aprendizaje y consultas técnicas.
 
-## Cómo la usé
+## ¿Cómo la usé?
 
 Durante el desarrollo de este proyecto usé IA principalmente para entender conceptos que no tenía claros y para resolver dudas puntuales que surgían mientras codificaba.
 

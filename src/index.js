@@ -5,6 +5,7 @@ dotenv.config();
 
 const authorsRouter = require('./routes/authors');
 const postsRouter = require('./routes/posts');
+const errorHandler = require('./middlewares/errorHandler');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -17,6 +18,8 @@ app.get('/', (req, res) => {
 
 app.use('/authors', authorsRouter);
 app.use('/posts', postsRouter);
+
+app.use(errorHandler);
 
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en puerto ${PORT}`);
