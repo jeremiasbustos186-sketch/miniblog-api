@@ -103,6 +103,8 @@ La API está desplegada en Railway con una base de datos PostgreSQL en la nube.
 
 **URL pública:** `https://miniblog-api-production-75f0.up.railway.app`
 
+**URL interna (Railway):** `miniblog-api.railway.internal`
+
 ### Pasos para desplegar en Railway
 
 1. Creá una cuenta en [railway.app](https://railway.app)
